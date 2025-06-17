@@ -1,0 +1,9 @@
+services:
+  langchain-streamlit-openai-app:
+    build: .
+    container_name: langchain-streamlit-openai-container
+    ports:
+      - "8501:8501" # Streamlit のデフォルトポート
+    volumes:
+      - .:/app
+    tty: true
