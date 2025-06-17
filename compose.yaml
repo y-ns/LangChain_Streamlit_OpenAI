@@ -1,6 +1,8 @@
 services:
   langchain-streamlit-openai-app:
     build: .
+    env_file:
+      - .env
     container_name: langchain-streamlit-openai-container
     ports:
       - "8501:8501" # Streamlit のデフォルトポート
