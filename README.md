@@ -16,5 +16,6 @@ by [ML_Bear](https://zenn.dev/ml_bear) さん
 <summary>メモ</summary>
   
 - 実行コマンド：`streamlit run ファイル名`
+- `.env` に `OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` を記述する。
 
 </details>
