@@ -3,19 +3,16 @@ by [ML_Bear](https://zenn.dev/ml_bear) さん
 
 〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️
 
-#### 🔸[Chapter 02 まずは環境準備をしよう](https://zenn.dev/ml_bear/books/d1f060a3f166a5/viewer/0e8fe3) をDocker上で環境構築。  
+🔸[Chapter 02 まずは環境準備をしよう](https://zenn.dev/ml_bear/books/d1f060a3f166a5/viewer/0e8fe3) をDocker上で環境構築。  
 1. `git clone git@github.com:y-ns/LangChain_Streamlit_OpenAI.git`
 2. `docker-compose build`
 3. `docker-compose up -d`
-4. `docker-compose exec langchain-streamlit-openai-app bash`  
+4. `docker-compose exec langchain-streamlit-openai-app bash`
+5. `streamlit run ファイル名`（実行コマンド）
 
 ---
 
-<details>
-
-<summary>メモ</summary>
-  
-- 実行コマンド：`streamlit run ファイル名`
-- `.env` に `OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx` を記述する。
-
-</details>
+`.env` の中身
+```
+OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
